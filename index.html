@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michel Alves da Silva">
+    <meta name="description" content="um site landingpage, somente para visualização com uma interface UI|UX excepcional">
+    <meta name="keywords" content="ladingpage,website,leitura,ui,ux,sua,empresa,web app,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lalezar&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500&family=Open+Sans:wght@300;400;500;600&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--google-fonts-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/><!--slick-->
+    <title>LandingPage</title>
+</head>
+<body>
+    
+    <nav class='mobile'>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#why">Por que nós?</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Entre em contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+           <div class="flex jc-between align-center">
+                <div class="logo">
+                    <h2>minha<b>Empresa</b></h2>
+                </div>
+                <nav class='desktop'>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#why">Por que nós?</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a class="contatc" href="#contato">Entre em contato</a></li>
+                    </ul>
+                </nav>
+                <div class="btn">
+                    <div class="line ln1"></div>
+                    <div class="line ln2"></div>
+                    <div class="line ln3"></div>
+                </div>
+                
+           </div>
+        </div>
+        
+    </header>
+
+    <section class='main'>
+        <div class="container">
+            <h2 class="title text-center">Promova <b>experiências</b> aos seus clientes</h2>
+            <h2 class="subtitle text-center white fw300">E veja resultados expressivos dia após dia</h2>
+            <div class="mockup"></div>
+
+            
+            <div class="scroll">
+                <div class="list-img">
+                    <div class="img-single"></div>
+                    <div class="img-single" style="background-image: url('img/LOGO2.png')"></div>
+                    <div class="img-single" style="background-image: url('img/LOGO3.png')"></div>
+                    <div class="img-single" style="background-image: url('img/LOGO4.png')"></div>
+                    <div class="img-single" style="background-image: url('img/LOGO5.png')"></div>
+                </div>
+            </div>
+           
+        </div><!--container-->
+    
+    </section>
+
+    <section class='why' id="why">
+    
+        <h2 class="title text-center">Por que nós?</h2>
+        <h2 class="subtitle text-center">Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa.</h2>
+        
+
+        <div class="flex align-center jc-center gap35 mt60">
+            <div class="box">
+                <div class="icon" style="background-image: url('img/ICONE1.svg');"></div>
+                <h2 class="title">Planejamento impecável</h2>
+                <h2 class="subtitle">Conte com a Agência Bold como sua parceira no planejamento de seus projetos, conteúdos, campanhas, estratégias. Nossos profissionais altamente qualificados estão preparados para qualquer desafio.</h2>
+            </div>
+            <div class="box">
+                <div class="icon" style="background-image: url('img/ICONE2.svg');"></div>
+                <h2 class="title">Pague pelos resultados</h2>
+                <h2 class="subtitle">Aqui você paga de acordo com o retorno que ganha em cada campanha. Não deixe a oportunidade de ter melhores resultados para amanhã. Entre em contato e vamos conversar sobre sua necessidade.</h2>
+            </div>
+            <div class="box">
+                <div class="icon" style="background-image: url('img/ICONE3.svg');"></div>
+                <h2 class="title">Suporte e acompanhamento</h2>
+                <h2 class="subtitle">Mesmo após terminarmos nosso projeto ou estratégia, nós da Agência Bold acompanharemos os futuros desdobramentos e resultados oferecendo todo suporte possível para você e sua equipe.</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="contato">
+        <div class="container flex column align-center">
+            <h2 class="title white text-center">Vamos começar seu projeto?</h2>
+            <h2 class="subtitle white text-center fw300">Fale com um consultor e tire sua idéia do papel.</h2>
+            <a href="#contato" class="entryContat">Entrar em contato</a>
+        </div><!--container-->
+    </section>
+
+    <section class="beneficios">
+        <div class="container">
+            <div class="flex jc-between gap35 align-center">
+                <div class="single-item">
+                    <h2 class="title">Benefícios para você</h2>
+
+                    <div class="flex align-center gap15">
+                        <div class="check"></div>
+                        <h2 class="subtitle fw400 text-color">Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</h2>
+                    </div>
+
+                    <div class="flex align-center gap15">
+                        <div class="check"></div>
+                        <h2 class="subtitle fw400 text-color">Equipe qualificada. Nossos profissionais possuem vasta experiência nacional e no exterior.</h2>
+                    </div>
+
+                    <div class="flex align-center gap15">
+                        <div class="check"></div>
+                        <h2 class="subtitle fw400 text-color">Acreditamos que trabalhos criativos são os que mais se destacam em meio a multidão. Saia do feijão com arroz.</h2>
+                    </div>
+
+                    <a href="#" class="entryContat">entrar em contato</a>
+                </div>
+                <div class="single-item">
+                    
+                    <div class="imagem"></div>
+                    
+                </div>
+            </div>
+        </div><!--container-->
+    </section>
+
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <h2 class="text-center title">Depoimentos</h2>
+            <div class="slider">
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO1.png');"></div>
+                    <div class="title">Miriam Souza</div>
+                    <div class="cargo text-color">Uber</div>
+                    <div class="subtitle text-color">O trabalho da Agência Bold foi fundamental para o nosso posicionamento e nossas estratégias de 2021. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade. Foi um trabalho incrível feito a muitas mãos pela Uber e pelo time da Agência Bold.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+                
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO2.png');"></div>
+                    <div class="title">Lucas Mendes</div>
+                    <div class="cargo text-color">The North Face</div>
+                    <div class="subtitle text-color">Buscamos a Agência Bold para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO3.png');"></div>
+                    <div class="title">Zaya Menphis</div>
+                    <div class="cargo text-color">Rappi</div>
+                    <div class="subtitle text-color">A estratégia de lançamento da marca não seria a mesma sem o trabalho comprometido da Agência Bold. Obrigado ao Vinícius, que abraçou nossos desafios como um de nós.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO2.png');"></div>
+                    <div class="title">Lucas Mendes</div>
+                    <div class="cargo text-color">The North Face</div>
+                    <div class="subtitle text-color">Buscamos a Agência Bold para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO1.png');"></div>
+                    <div class="title">Miriam Souza</div>
+                    <div class="cargo text-color">Uber</div>
+                    <div class="subtitle text-color">O trabalho da Agência Bold foi fundamental para o nosso posicionamento e nossas estratégias de 2021. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade. Foi um trabalho incrível feito a muitas mãos pela Uber e pelo time da Agência Bold.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO3.png');"></div>
+                    <div class="title">Zaya Menphis</div>
+                    <div class="cargo text-color">Rappi</div>
+                    <div class="subtitle text-color">A estratégia de lançamento da marca não seria a mesma sem o trabalho comprometido da Agência Bold. Obrigado ao Vinícius, que abraçou nossos desafios como um de nós.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO2.png');"></div>
+                    <div class="title">Lucas Mendes</div>
+                    <div class="cargo text-color">The North Face</div>
+                    <div class="subtitle text-color">Buscamos a Agência Bold para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+
+                <div class="box text-center">
+                    <div class="img" style="background-image: url('img/DEPOIMENTO1.png');"></div>
+                    <div class="title">Miriam Souza</div>
+                    <div class="cargo text-color">Uber</div>
+                    <div class="subtitle text-color">O trabalho da Agência Bold foi fundamental para o nosso posicionamento e nossas estratégias de 2021. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade. Foi um trabalho incrível feito a muitas mãos pela Uber e pelo time da Agência Bold.</div>
+
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="contato2" id="contato">
+        <div class="container">
+            <h2 class="title text-center">Entre em contato</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Name">
+                <input type="eamil" name="email" placeholder="Email">
+                <textarea rows="10" cols="50" placeholder="Message"></textarea>
+                <input type="submit" name="acao" value="ENVIAR">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2 class="subtitle text-center">Desenvolvido por <b>Michel</b> </h2>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
